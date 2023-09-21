@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>feedback</title>
+        <header><h1 align="center">Chatline</h1></header>
+        <style>
+            *{
+                color: black;
+                font-weight: bolder;
+            }
+        h1{
+            margin-top: 0px;
+            padding: 12px;
+        background-color: blue;
+        color: azure;
+        width: 100%;
+        }
+        h2{
+            color: white;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 12px;
+            background-color: blue;
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        input[type=text], input[type=textarea] {
+            background-color: aliceblue;
+            border-width: 4px;
+    border-radius: 6px;
+    border-color: #040000;
+  height: 10;  
+  width: 64%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  color: black;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 4px 4px;
+  padding-left: 10px;
+  padding-right: 60px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 12%;
+  display: block;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+}
+label{
+    color: white;
+}
+
+#oo{
+    background-color: aliceblue;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: #040000;
+    color: black;
+}
+
+button:hover {
+  opacity: 0.8;
+  opacity: 0.8;
+  width: 14%;
+}
+.c1{
+    margin-top: 80px;
+    backdrop-filter: blur(6px);
+    background-color: rgb(220, 220, 220, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+    height: max-content;
+    width: max-content;
+ }
+
+body{
+    background-image: url(bg3.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+        </style>
+    </head>
+    <body>
+      <center> <div class="c1">
+            <div class="c2">
+        <center><h2>!! WE LOVE YOUR FEEDBACK !!</h2></center>
+        <center><form action="feed.php" method="post">
+            <label>email : </label>  <br> 
+            <input type="email" placeholder="Enter email" name="email" required>  <br> 
+            <label>Feedback : </label>  <br> 
+            <textarea id="oo" placeholder="Enter the feedback" name="feedback" rows="15" cols="50" required></textarea>
+            <center><button type="submit">Submit</button> </center> 
+        </form></center>
+    </div>
+</div></center> 
+    </body>
+    <center><footer>
+        <a href="aboutus.html" target="_blank">About us  |</a>
+        <a href="contactus.html" target="_blank">Contact us  |</a>
+        <a href="privacypol.html" target="_blank">Privacy policy </a>
+       </footer></center>
+</html>
